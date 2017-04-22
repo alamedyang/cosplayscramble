@@ -123,16 +123,18 @@ Vue.component(
 			item: Object
 		},
 		template: `
-			<div class="product">
+			<a class="product">
 				<span class="image"><span class="image-crop"><img :src="'./content/characters/' + item.img_name" /></span></span>
-				<span class="name" :class="'category category-' + item.cat_id">{{item.product_name}}</span>
-				<span class="noSelect">
-					<span :class="'instock-' + item.in_stock">In Stock: {{item.in_stock ? 'Yes! $' + (item.pts * 4) : 'Out of Stock'}}</span>
-					<span :class="'status-' + item.status">Status: {{item.status}}</span>
-					<span class="series">Series: {{item.series}}</span>
-					<span class="characters">Characters:\n{{item.char_list}}</span>
+				<span class="description">
+					<span class="name" :class="'category category-' + item.cat_id">{{item.product_name}}</span>
+					<span class="noSelect">
+						<strong :class="'instock-' + item.in_stock">{{item.in_stock ? '$' + (item.pts * 4) : 'Out of Stock'}}</strong>
+						<span :class="'status-' + item.status">Status: {{item.status}}</span>
+						<span class="series">Series: {{item.series}}</span>
+						<span class="characters">Characters:\n{{item.char_list}}</span>
+					</span>
 				</span>
-			</div>
+			</a>
 		`
 	}
 );
