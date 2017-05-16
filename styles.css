@@ -53,25 +53,71 @@ strong{
 	user-drag: none;
 }
 
+.app, .container{
+	min-height: 100vh;
+}
 
 .container{
 	position: relative;
 	background-color: #fff;
 }
 
-header .logo{
+header{
 	background-color: #000;
 }
-header .sort-filter{
+header nav ul{
 	display: flex;
 	flex-flow: row wrap;
 	padding: 0.5rem;
 }
-header .sort-filter .category-list{
+header nav ul li{
+	display: block;
+	width: 50%;
+}
+header nav ul li a {
+	display: block;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 3rem;
+	border-radius: 1rem;
+	border: 2px solid #FDB70F;
+	background-color: #000;
+	margin: 0.5rem;
+	color: #FDB70F;
+}
+header nav ul li a.router-link-exact-active{
+	background-color: #FDB70F;
+	color: #000;
+}
+
+.content{
+	padding: 1rem;
+}
+
+h1{
+	font-size: 2rem;
+	line-height: 3rem;
+	font-weight: 800;
+}
+h1, p{
+	padding-bottom: 1rem;
+}
+
+a{
+	color: #FDB70F;
+	font-weight: bold;
+}
+
+.sort-filter{
+	display: flex;
+	flex-flow: row wrap;
+}
+.sort-filter .category-list{
 	width: 100%;
 }
-header .sort-filter .status-list,
-header .sort-filter .sort-list{
+.sort-filter .status-list,
+.sort-filter .sort-list{
 	flex: 1;
 }
 .sort-filter .item{
@@ -92,6 +138,9 @@ header .sort-filter .sort-list{
 .status-list li {
 	display: block;
 }
+.status-list a{
+	color: #000;
+}
 
 .flex-list{
 	display: flex;
@@ -105,6 +154,10 @@ header .sort-filter .sort-list{
 	display: flex;
 }
 
+.product-list .flex-list{
+	padding: 0;
+}
+
 .product {
 	display: block;
 	flex-grow: 1;
@@ -113,6 +166,8 @@ header .sort-filter .sort-list{
 	border-radius: 0.25rem;
 	font-size: 0.875rem;
 	line-height: 1rem;
+	color: #000;
+	font-weight: 400;
 }
 .product span{
 	display: block;
@@ -163,12 +218,25 @@ header .sort-filter .sort-list{
 .category-6{ color: #930308; }
 
 
+.q{
+	font-weight: 800;
+}
+
 /* medium */
 @media (min-width: 720px) {
+	body{
+		background-image: url('https://farm9.staticflickr.com/8455/8016622427_393bb70151_k_d.jpg');
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+	}
 	.container{
 		width: 640px;
-		padding: 0 0 1rem 0;
 		margin: 0 auto;
+	}
+	header nav ul li{
+		width: auto;
+		flex: 1;
 	}
 	.product-list .flex-list li{
 		flex: 1 33.3333333%;
@@ -180,7 +248,7 @@ header .sort-filter .sort-list{
 	.container{
 		width: 800px;
 	}
-	header .sort-filter .category-list{
+	.sort-filter .category-list{
 		flex: 2;
 	}
 	.product-list .flex-list li{
