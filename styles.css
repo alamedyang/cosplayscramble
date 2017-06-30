@@ -108,6 +108,9 @@ a{
 	color: #FDB70F;
 	font-weight: bold;
 }
+a:link{
+	text-decoration: underline;
+}
 
 .sort-filter{
 	display: flex;
@@ -141,6 +144,9 @@ a{
 .status-list a{
 	color: #000;
 }
+.status-Current, .status-Current *{ color: #369; }
+.status-Retiring, .status-Retiring *{ color: #f90; }
+.status-Retired, .status-Retired *{ color: #900; }
 
 .flex-list{
 	display: flex;
@@ -169,7 +175,9 @@ a{
 	color: #000;
 	font-weight: 400;
 }
-.product span{
+.product > *,
+.product .description > *,
+.product .description > * > *{
 	display: block;
 }
 .product .description{

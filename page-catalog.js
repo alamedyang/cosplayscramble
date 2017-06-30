@@ -1,5 +1,11 @@
 "use strict";
 
+let statusSymbolMap = {
+	Current: '✔&#xFE0E',
+	Retiring: '❗&#xFE0E;',
+	Retired: '✖&#xFE0E;',
+};
+
 let PageCatalog = Vue.component(
 	'page-catalog',
 	{
@@ -23,6 +29,7 @@ let PageCatalog = Vue.component(
 			};
 		},
 		created: function () {
+			this.statusSymbolMap = statusSymbolMap;
 			this.getData();
 		},
 		methods: {
@@ -93,7 +100,10 @@ let PageCatalog = Vue.component(
 									@click="toggleFilter(item)"
 									>
 									<span class="box">{{item.on ? '☑' : '☐'}}</span>
-									<span class="label">{{item.name}}</span>
+									<span
+										class="label"
+										:class="'status-' + item.name"
+										v-html="statusSymbolMap[item.name] + ' ' +item.name" />
 								</a>
 							</li>
 						</ul>
@@ -101,6 +111,7 @@ let PageCatalog = Vue.component(
 					<div class="sort-list">
 						<h3>Sort:</h3>
 						<p>Sort options placeholder</p>
+						<p>Loaded Items: {{list.length}}<br />Filtered Items: {{filteredList.length}}</p>
 					</div>
 				</div>
 				<product-list :filteredList="filteredList" />
@@ -134,14 +145,24 @@ Vue.component(
 		props: {
 			item: Object
 		},
+		created: function(){this.statusSymbolMap = statusSymbolMap;},
 		template: `
 			<a class="product">
 				<span class="image"><span class="image-crop"><img :src="'./content/characters/' + item.img_name" /></span></span>
 				<span class="description">
 					<span class="name" :class="'category category-' + item.cat_id">{{item.product_name}}</span>
 					<span class="noSelect">
-						<strong :class="'instock-' + item.in_stock">{{item.in_stock ? '$' + (item.pts * 4) : 'Out of Stock'}}</strong>
-						<span :class="'status-' + item.status">Status: {{item.status}}</span>
+						<strong :class="'instock-' + item.in_stock">
+							<span v-html="item.in_stock ? '$' + (item.pts * 4) : 'Out of Stock'" />
+							<span :class="'status-' + item.status">
+								<span v-html="statusSymbolMap[item.status]" />
+								<a
+									v-if="item.etsy_live"
+									:href="'https://www.etsy.com/listing/' + item.etsy_live" 
+									target="_blank"
+									v-html="'Etsy ➦&#xFE0E;'" />
+							</span>
+						</strong>
 						<span class="series">Series: {{item.series}}</span>
 						<span class="characters">Characters:\n{{item.char_list}}</span>
 					</span>
