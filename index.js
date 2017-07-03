@@ -3,10 +3,10 @@
 let app = {
 	router: new VueRouter({
 		routes: [
-			{ path: '/', component: PageNews },
+			{ path: '/', component: PageInfo },
 			{ path: '/catalog/', component: PageCatalog },
-			{ path: '/faq/', component: PageFaq },
-			{ path: '/contact/', component: PageContact }
+			{ path: '/order/', component: PageOrder },
+			{ path: '/custom/', component: PageCustom }
 		]
 	})
 };
@@ -24,10 +24,10 @@ app.vue = new Vue({
 					<div class="logo"><router-link :to="\{ path: '/'}"><img src="./content/logo.svg" /></router-link></div>
 					<nav>
 						<ul>
-							<li><router-link :to="\{ path: '/'}">News</router-link></li>
+							<li><router-link :to="\{ path: '/'}">Info</router-link></li>
 							<li><router-link :to="\{ path: '/catalog'}">Catalog</router-link></li>
-							<li><router-link :to="\{ path: '/faq/'}">F.A.Q.</router-link></li>
-							<li><router-link :to="\{ path: '/contact/'}">Contact</router-link></li>
+							<li><router-link :to="\{ path: '/order/'}">Order</router-link></li>
+							<li><router-link :to="\{ path: '/custom/'}">Custom</router-link></li>
 						</ul>
 					</nav>
 				</header>

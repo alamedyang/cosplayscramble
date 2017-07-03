@@ -1,10 +1,10 @@
 "use strict";
 
-let PageNews = Vue.component(
-	'page-news',
+let PageInfo = Vue.component(
+	'page-info',
 	{
 		template: `
-			<section class="page-news">
+			<section class="page-info">
 				<h1>News: Cosplay Scramble Ending in 2018</h1>
 				<p>Hello, everyone!</p>
 				<p>Cosplay Scramble has been a big part of my life for the last seven years, but I'm finding that my life is moving in another direction. Thus I’ve decided it’s time to move on.</p>

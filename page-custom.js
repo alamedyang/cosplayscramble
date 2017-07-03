@@ -1,11 +1,11 @@
 "use strict";
 
-let PageContact = Vue.component(
-	'page-contact',
+let PageCustom = Vue.component(
+	'page-custom',
 	{
 		template: `
-			<section class="page-contact">
-				<h1>Contact</h1>
+			<section class="page-custom">
+				<h1>Custom</h1>
 				<p>This page is going to grow up to be the most beautiful form even though it's an ugly duckling today.</p>
 			</section>
 		`
