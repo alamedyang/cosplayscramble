@@ -15,6 +15,7 @@ let PageInfo = Vue.component(
 				<p> Cheers,<br>
 Mary Jenkins</p>
 				<p>P.S. Here’s Colonel Mustang in a miniskirt.</p>
+				<p><img src="content/miniskirt.png" alt="Colonel Mustang dressed as Haruhi Suzumiya" title="Colonel Mustang is dead sexy... in a miniskirt!" width="150" /></p>
 			</section>
 		`
 	}
