@@ -25,7 +25,14 @@ let PageCatalog = Vue.component(
 					{on: true, name: 'Current'},
 					{on: true, name: 'Retiring'},
 					{on: false, name: 'Retired'},
-				]
+				],
+				sorts: [
+					{id: 'sort_franchise_cat', name: 'by franchise (with category)'},
+					{id: 'sort_franchise_nocat', name: 'by franchise'},
+					{id: 'sort_product_cat', name: 'by product name (with category)'},
+					{id: 'sort_product_nocat', name: 'by product name'},
+				],
+				sort: 'sort_franchise_cat'
 			};
 		},
 		created: function () {
@@ -54,6 +61,7 @@ let PageCatalog = Vue.component(
 				this.filterList();
 			},
 			filterList: function () {
+				let sortColumn = this.sort;
 				let categoryNames = [];
 				let statusNames = [];
 				this.categories.forEach(function (item) {
@@ -71,6 +79,10 @@ let PageCatalog = Vue.component(
 					let inStatuses = inCategories && statusNames.indexOf(product.status) > -1;
 					return inStatuses;
 				});
+				let sort = function(a,b){
+					return a[sortColumn] - b[sortColumn];
+				};
+				result.sort(sort);
 				this.filteredList = result;
 			}
 		},
@@ -110,7 +122,9 @@ let PageCatalog = Vue.component(
 					</div>
 					<div class="sort-list">
 						<h3>Sort:</h3>
-						<p>Sort options placeholder</p>
+						<select v-model="sort" @change="filterList">
+							<option v-for="option in sorts" v-bind:value="option.id" v-html="option.name" />
+						</select>
 						<p>Loaded Items: {{list.length}}<br />Filtered Items: {{filteredList.length}}</p>
 					</div>
 				</div>
