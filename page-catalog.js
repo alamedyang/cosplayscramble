@@ -2,7 +2,7 @@
 
 let statusSymbolMap = {
 	Current: '✔&#xFE0E',
-	Retiring: '❗&#xFE0E;',
+	Retiring: '<strong>!</strong>',
 	Retired: '✖&#xFE0E;',
 };
 
@@ -15,16 +15,16 @@ let PageCatalog = Vue.component(
 				filteredList: [],
 				categories: [
 					{id: 1, on: true, name: 'Anime / Manga'},
-					{id: 2, on: true, name: 'Video Game'},
-					{id: 3, on: true, name: 'Live Action'},
 					{id: 4, on: true, name: 'Pokémon'},
+					{id: 2, on: true, name: 'Video Game'},
 					{id: 5, on: true, name: 'Western Animation'},
+					{id: 3, on: true, name: 'Live Action'},
 					{id: 6, on: true, name: 'Miscellaneous'},
 				],
 				statuses: [
 					{on: true, name: 'Current'},
 					{on: true, name: 'Retiring'},
-					{on: true, name: 'Retired'},
+					{on: false, name: 'Retired'},
 				]
 			};
 		},
@@ -153,18 +153,18 @@ Vue.component(
 					<span class="name" :class="'category category-' + item.cat_id">{{item.product_name}}</span>
 					<span class="noSelect">
 						<strong :class="'instock-' + item.in_stock">
-							<span v-html="item.in_stock ? '$' + (item.pts * 4) : 'Out of Stock'" />
+							<span v-html="item.in_stock ? '$' + item.price : 'Out of Stock'" />
 							<span :class="'status-' + item.status">
 								<span v-html="statusSymbolMap[item.status]" />
 								<a
 									v-if="item.etsy_live"
-									:href="'https://www.etsy.com/listing/' + item.etsy_live" 
+									:href="'https://www.etsy.com/listing/' + item.etsy_live"
 									target="_blank"
 									v-html="'Etsy ➦&#xFE0E;'" />
 							</span>
 						</strong>
 						<span class="series">Series: {{item.series}}</span>
-						<span class="characters">Characters:\n{{item.char_list}}</span>
+						<span class="characters">Includes:\n{{item.char_list}}</span>
 					</span>
 				</span>
 			</a>
