@@ -5,7 +5,7 @@ let PageInfo = Vue.component(
 	{
 		template: `
 			<section class="page-info">
-				<h1>Cosplay Scramble Information</h1>
+				<h1>Information</h1>
 				<h2>News: Cosplay Scramble Ending in 2018</h2>
 				<p>Hello, everyone!</p>
 				<p>Cosplay Scramble has been a big part of my last seven years, but my life has been moving in another direction so I’ve decided to retire.</p>

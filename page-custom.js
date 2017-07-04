@@ -8,11 +8,11 @@ let PageCustom = Vue.component(
 				<h1>Custom orders</h1>
 				<p>I am currently accepting commissions and other custom orders! Commissions are expected to continue through October 2017 for fan art and mid-2018 for everything else.</p>
 
-				<p><strong>Current Commission Slots:</strong><br>
-1. <strong>rock</strong><br>
-2. <strong>tseng</strong><br>
-3. <em>empty!</em><br>
-4. <em>empty!</em><br>
+				<p><strong>Current Commission Slots:</strong><br />
+1. <strong>rock</strong><br />
+2. <strong>tseng</strong><br />
+3. <em>empty!</em><br />
+4. <em>empty!</em><br />
 5. <em>empty!</em></p>
 
 				<h2>Types of Commissions</h2>

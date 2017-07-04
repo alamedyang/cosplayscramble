@@ -88,6 +88,7 @@ let PageCatalog = Vue.component(
 		},
 		template: `
 			<section class="page-catalog">
+				<h1>General Catalog</h1>
 				<div class="sort-filter noSelect">
 					<div class="category-list">
 						<h4>Category:</h4>

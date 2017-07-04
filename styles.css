@@ -100,7 +100,6 @@ header nav ul li a.router-link-exact-active{
 }
 
 h1, h2, h3{
-	padding-top: 1rem;
 	padding-bottom: 0.5rem;
 }
 h1{
@@ -118,10 +117,12 @@ h3{
 	line-height: 2rem;
 	font-weight: 800;
 }
+h4{
+	font-weight: 800;
+}
 p{
 	padding-bottom: 1rem;
 }
-
 a{
 	color: #FDB70F;
 	font-weight: bold;
