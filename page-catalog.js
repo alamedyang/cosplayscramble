@@ -177,8 +177,8 @@ Vue.component(
 									v-html="'Etsy ➦&#xFE0E;'" />
 							</span>
 						</strong>
-						<span class="series">Series: {{item.series}}</span>
-						<span class="characters">Includes:\n{{item.char_list}}</span>
+						<span class="series">from {{item.series}}</span>
+						<span class="characters">{{item.char_list}}</span>
 					</span>
 				</span>
 			</a>
