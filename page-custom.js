@@ -87,7 +87,7 @@ let PageCustom = Vue.component(
 							<td>$4</td>
 							<td class="optional">12+</td>
 							<td class="optional">$3</td>
-							<td>my pet dog, a Red-tailed Hawk</td>
+							<td>your pet dog, a Red-tailed Hawk</td>
 						</tr>
 						<tr>
 							<th rowspan="2">Color Edits</th>
