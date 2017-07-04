@@ -25,6 +25,7 @@ let PageCustom = Vue.component(
 
 				<h2>Prices</h2>
 
+				<div class="prices-table-holder">
 				<table class="prices-table" style="width: 100%;">
 					<thead>
 						<tr>
@@ -45,8 +46,8 @@ let PageCustom = Vue.component(
 							<td class="prices-good">no</td>
 							<td>$40</td>
 							<td>$4</td>
-							<td> </td>
-							<td> </td>
+							<td class="optional"> </td>
+							<td class="optional"> </td>
 							<td>Sephiroth, Vash the Stampede</td>
 						</tr>
 						<tr>
@@ -54,8 +55,8 @@ let PageCustom = Vue.component(
 							<td class="prices-good">no</td>
 							<td>$30</td>
 							<td>$2</td>
-							<td> </td>
-							<td> </td>
+							<td class="optional"> </td>
+							<td class="optional"> </td>
 							<td>Tony Tony Chopper, Raichu</td>
 						</tr>
 						<tr>
@@ -64,8 +65,8 @@ let PageCustom = Vue.component(
 							<td>yes</td>
 							<td>$60</td>
 							<td>$6</td>
-							<td>6+</td>
-							<td>$5</td>
+							<td class="optional">6+</td>
+							<td class="optional">$5</td>
 							<td>a fursona, a DnD character</td>
 						</tr>
 						<tr>
@@ -74,8 +75,8 @@ let PageCustom = Vue.component(
 							<td>yes</td>
 							<td>$25</td>
 							<td>$4</td>
-							<td>10+</td>
-							<td>$3</td>
+							<td class="optional">10+</td>
+							<td class="optional">$3</td>
 							<td>you, your fiance, your children, your BFF</td>
 						</tr>
 						<tr>
@@ -84,8 +85,8 @@ let PageCustom = Vue.component(
 							<td>yes</td>
 							<td>$30</td>
 							<td>$4</td>
-							<td>12+</td>
-							<td>$3</td>
+							<td class="optional">12+</td>
+							<td class="optional">$3</td>
 							<td>my pet dog, a Red-tailed Hawk</td>
 						</tr>
 						<tr>
@@ -94,8 +95,8 @@ let PageCustom = Vue.component(
 							<td>yes</td>
 							<td>$10</td>
 							<td>$6</td>
-							<td>6+</td>
-							<td>$5</td>
+							<td class="optional">6+</td>
+							<td class="optional">$5</td>
 							<td>game pallet swaps, hair “dye”</td>
 						</tr>
 						<tr>
@@ -103,12 +104,13 @@ let PageCustom = Vue.component(
 							<td>yes</td>
 							<td>$10</td>
 							<td>$4</td>
-							<td>12+</td>
-							<td>$3</td>
+							<td class="optional">12+</td>
+							<td class="optional">$3</td>
 							<td>shiny Pokemon, pet breed color variations</td>
 						</tr>
 					</tbody>
 				</table>
+				</div>
 
 				<p>Remember that shipping is not included in the above chart, and will be at the regular rates. (See the <a href="#/order">Order</a> section for current rates.)</p>
 				<p><strong>Size:</strong> Cosplay Scramble magnets come in two sizes: large and small/mini. Generally humans and humanoids are the large size, while animals or small creatures, like Pokemon, are the small size.</p>
@@ -118,7 +120,7 @@ let PageCustom = Vue.component(
 				<p><strong>Examples:</strong> Some examples of each category.</p>
 
 				<h2>Commission Procedure</h2>
-				<p><Each commissions slot allows someone to commission up to three new characters. Note that slots may be finished out of order depending on the drawings’ difficulty.</p>
+				<p>Each commissions slot allows someone to commission up to three new characters. Note that slots may be finished out of order depending on the drawings’ difficulty.</p>
 				<p>While I may decline or delay the commission due to subject matter or logistics issues, I will try to get as many done as I can this year. In advance I will say that I won’t draw anything controversial (i.e. lewd, politically charged, excessively violent).</p>
 				<p>There are limitations on poses and characters due to the format, so arms cannot be above the character’s head and thin pieces like tails or antenna will have to be thickened so the magnet won’t break off. In addition, Cosplay Scramble magnets cannot be made from characters without a workable jawline, such as characters whose entire body is their head (e.g. Jigglypuff) or bulky characters without anything resembling the anatomy of a neck (e.g. Totoro).</p>
 

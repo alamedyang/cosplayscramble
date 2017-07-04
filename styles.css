@@ -43,6 +43,10 @@ strong{
 	font-weight: 800;
 }
 
+em{
+	font-style: italic;
+}
+
 .noSelect,
 .noSelect * {
 	-webkit-user-select: none;
@@ -95,6 +99,10 @@ header nav ul li a.router-link-exact-active{
 	padding: 1rem;
 }
 
+h1, h2, h3{
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+}
 h1{
 	font-size: 2rem;
 	line-height: 3rem;
@@ -110,7 +118,7 @@ h3{
 	line-height: 2rem;
 	font-weight: 800;
 }
-h1, p{
+p{
 	padding-bottom: 1rem;
 }
 
@@ -239,6 +247,44 @@ a:link{
 .q{
 	font-weight: 800;
 }
+
+.prices-table-holder{
+	overflow: auto;
+}
+
+.prices-table{
+	margin-bottom: 1rem;
+	vertical-align: middle;
+	border-spacing: 0px;
+	border: 1px solid #bbb;
+	border-width: 1px 0 0 1px;
+}
+
+.prices-table td,
+.prices-table th{
+	padding: 0.25rem 0.5rem;
+	border: 1px solid #bbb;
+	border-width: 0 1px 1px 0;
+}
+
+.prices-table thead th{
+	background-color: #ddd;
+	text-align: center;
+}
+
+.prices-table tbody th{
+	background-color: #e7e7e7;
+	text-align: right;
+}
+
+.prices-table .prices-good{
+	background-color: #beb;
+}
+
+.prices-table .optional{
+	background-color: #eee;
+}
+
 
 /* medium */
 @media (min-width: 720px) {
