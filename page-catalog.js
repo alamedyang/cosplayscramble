@@ -126,7 +126,7 @@ let PageCatalog = Vue.component(
 						<select v-model="sort" @change="filterList">
 							<option v-for="option in sorts" v-bind:value="option.id" v-html="option.name" />
 						</select>
-						<p>Loaded Items: {{list.length}}<br />Filtered Items: {{filteredList.length}}</p>
+						<p>Total Products: {{list.length}}<br />Visible Products: {{filteredList.length}}</p>
 					</div>
 				</div>
 				<product-list :filteredList="filteredList" />

@@ -5,7 +5,7 @@ let PageCustom = Vue.component(
 	{
 		template: `
 			<section class="page-custom">
-				<h1>Custom orders</h1>
+				<h1>Custom Orders</h1>
 				<p>I am currently accepting commissions and other custom orders! Commissions are expected to continue through October 2017 for fan art and mid-2018 for everything else.</p>
 
 				<p><strong>Current Commission Slots:</strong><br />
@@ -16,7 +16,7 @@ let PageCustom = Vue.component(
 5. <em>empty!</em></p>
 
 				<h2>Types of Commissions</h2>
-				<p><strong>Fan Art:</strong> Any character from a commercial franchise. (See the <a href="#/catalog">General Catalog</a>.) Characters can be from anime, comics, games, television shows, movies, or anything else provided the parent company (and rights holder) is tolerant of fan art. This category is for characters that have a broad fanbase and that could be sold in the Artist Alley at anime conventions.</p>
+				<p><strong>Fan Art:</strong> Any character from a commercial franchise. (See the <router-link :to="\{ path: '/catalog'}">General Catalog</router-link>.) Characters can be from anime, comics, games, television shows, movies, or anything else provided the parent company (and rights holder) is tolerant of fan art. This category is for characters that have a broad fanbase and that could be sold in the Artist Alley at anime conventions.</p>
 				<p><strong>OCs:</strong> Short for “original characters,” this category includes any original design of your own, including self-insert characters for commercial franchises. Common examples include fursonas, MLP ponysonas, and customized characters for popular anime. These are unique characters of your own design that would not be sold in the Artist Alley at anime conventions.</p>
 				<p><strong>People [head only]:</strong> This category is for drawings made from photos of you or anyone else you know in real life. For the time being, I will only draw heads from photos like this, meaning you will have to use bodies from other characters (to “cosplay”).</p>
 				<p><strong>Pets / Animals:</strong> I will draw your pet or a generic animal in a mini size.</p>
@@ -112,7 +112,7 @@ let PageCustom = Vue.component(
 				</table>
 				</div>
 
-				<p>Remember that shipping is not included in the above chart, and will be at the regular rates. (See the <a href="#/order">Order</a> section for current rates.)</p>
+				<p>Remember that shipping is not included in the above chart, and will be at the regular rates. (See the <router-link :to="\{ path: '/order'}">Order</router-link> section for current rates.)</p>
 				<p><strong>Size:</strong> Cosplay Scramble magnets come in two sizes: large and small/mini. Generally humans and humanoids are the large size, while animals or small creatures, like Pokemon, are the small size.</p>
 				<p><strong>POD:</strong> This column indicates whether magnets are print-on-demand (as opposed to pre-made). Print-on-demand magnets are not made until ordered, and are hand cut unless ordered in bulk.</p>
 				<p><strong>Drawing:</strong> This is how much it costs to get the drawing made. The drawing cost also includes one copy of the finished drawing as a cut magnet.</p>
@@ -131,7 +131,7 @@ let PageCustom = Vue.component(
 				<p>Once we’ve agreed on what I will be drawing, your slot is reserved! I will pick a codeword to represent your order in the Commissions Slot list above.</p>
 
 				<h3>Payment</h3>
-				<p>Once I’ve agreed to your commission, <strong>I will send a Paypal invoice to your email address.</strong> Paypal will let you pay in several ways, including with a credit card, so you won’t need a Paypal account to pay. The shipping rates are the same as for a general order — see the <a href="#/order">Order</a> section for current shipping prices.</p>
+				<p>Once I’ve agreed to your commission, <strong>I will send a Paypal invoice to your email address.</strong> Paypal will let you pay in several ways, including with a credit card, so you won’t need a Paypal account to pay. The shipping rates are the same as for a general order — see the <router-link :to="\{ path: '/order'}">Order</router-link> section for current shipping prices.</p>
 				<p>(Magnets from the General Catalog can be ordered and shipped with your commission. Just let me know which sets you want, and I’ll include them on the invoice. You’ll receive all ordered magnets together.)</p>
 				<p>You may cancel your commission at any point, but the refund may be reduced depending on how far along I am. (E.g., if I haven’t started drawing yet you will get a full refund, but if I am done drawing but haven’t made the magnet yet you will only get the magnet manufacturing cost back.)</p>
 				<p>I do insist that the full commission cost is paid in advance. If payment takes too long, there’s a good change I will ask you to give up your slot (at least for the moment) so that others may have a turn.</p>

@@ -11,6 +11,10 @@ let app = {
 	})
 };
 
+app.router.afterEach(function(){
+	window.scrollTo(0, 0);
+});
+
 app.vue = new Vue({
 	el: '#appTarget',
 	data: {
