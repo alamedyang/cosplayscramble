@@ -37,19 +37,19 @@ let PageCustom = Vue.component(
 				<p>While I may decline or delay the commission due to subject matter or logistics issues, I will try to get as many done as I can this year. In advance I will say that I won’t draw anything controversial (i.e. lewd, politically charged, excessively violent).</p>
 				<p>There are limitations on poses and characters due to the format, so arms cannot be above the character’s head and thin pieces like tails or antenna will have to be thickened so the magnet won’t break off. In addition, Cosplay Scramble magnets cannot be made from characters without a workable jawline, such as characters whose entire body is their head (e.g. Jigglypuff) or bulky characters without anything resembling the anatomy of a neck (e.g. Totoro).</p>
 
-				<h4>Reserve a Slot</h4>
+				<h3>Reserve a Slot</h3>
 				<p>To reserve a slot, <strong><a href="mailto:contact@cosplayscramble.com?Subject=Reserve%20a%20slot">email me</a> with the words “reserve a slot” in the subject line.</strong></p>
 				<p>I’ll also need to know who or what you’d like me to draw. If your commission is fan art, you’ll need to let me know if there’s a specific outfit you would prefer. If your commission is an original character, I’ll need head-to-toe reference. <strong>Attach or link any relevant images</strong> at this step. I might have questions about specific details, particularly for characters from franchises I’m not familiar with.</p>
 				<p>If you have any special requests, let me know at this point in case it will affect the final price. Special requests can include custom packaging (perhaps for a party), shipping to multiple addresses, non-decapitation, etc.</p>
 				<p>Once we’ve agreed on what I will be drawing, your slot is reserved! I will pick a codeword to represent your order in the Commissions Slot list above.</p>
 
-				<h4>Payment</h4>
+				<h3>Payment</h3>
 				<p>Once I’ve agreed to your commission, <strong>I will send a Paypal invoice to your email address.</strong> Paypal will let you pay in several ways, including with a credit card, so you won’t need a Paypal account to pay. The shipping rates are the same as for a general order — see the <a href="#/order">Order</a> section for current shipping prices.</p>
 				<p>(Magnets from the General Catalog can be ordered and shipped with your commission. Just let me know which sets you want, and I’ll include them on the invoice. You’ll receive all ordered magnets together.)</p>
 				<p>You may cancel your commission at any point, but the refund may be reduced depending on how far along I am. (E.g., if I haven’t started drawing yet you will get a full refund, but if I am done drawing but haven’t made the magnet yet you will only get the magnet manufacturing cost back.)</p>
 				<p>I do insist that the full commission cost is paid in advance. If payment takes too long, there’s a good change I will ask you to give up your slot (at least for the moment) so that others may have a turn.</p>
 
-				<h4>Production</h4>
+				<h3>Production</h3>
 				<p><strong>Once payment clears, I’ll begin.</strong> Note: because some commissions will be more difficult than others, I may finish them out of order. I want them all to turn out well, and sometimes I need extra time to make sure I get them right.</p>
 				<p>When I’m done drawing, I’ll send you the finished image to see what you think. I can still make changes at this point, so it’s important to make sure I got everything about the character correct. (If I haven’t seen the anime the character is from, for example, I might miss an important detail.) Then, once we are both satisfied, <strong>I will print, magnet-ify, and cut the finished drawing(s). I’ll ship them as soon as they’re done, you’ll receive them in the mail!</strong></p>
 				<p>Fan art commissions will appear in the General Catalog at this point, and will also be available at any future conventions (while supplies last).</p>

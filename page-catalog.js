@@ -90,7 +90,7 @@ let PageCatalog = Vue.component(
 			<section class="page-catalog">
 				<div class="sort-filter noSelect">
 					<div class="category-list">
-						<h3>Category:</h3>
+						<h4>Category:</h4>
 						<ul class="flex-list">
 							<li v-for="item in categories">
 								<a class="item"
@@ -104,7 +104,7 @@ let PageCatalog = Vue.component(
 						</ul>
 					</div>
 					<div class="status-list">
-						<h3>Status:</h3>
+						<h4>Status:</h4>
 						<ul>
 							<li v-for="item in statuses">
 								<a class="item"
@@ -121,7 +121,7 @@ let PageCatalog = Vue.component(
 						</ul>
 					</div>
 					<div class="sort-list">
-						<h3>Sort:</h3>
+						<h4>Sort:</h4>
 						<select v-model="sort" @change="filterList">
 							<option v-for="option in sorts" v-bind:value="option.id" v-html="option.name" />
 						</select>
