@@ -24,7 +24,92 @@ let PageCustom = Vue.component(
 				<p><strong>Other Special Orders:</strong> Other requests will be handled the same way as the next most-similar commission. E.g., a head-on-body non-decapitation order will be handled and charged like a POD magnet order.</p>
 
 				<h2>Prices</h2>
-				<p>{How do I table again?}</p>
+
+				<table class="prices-table" style="width: 100%;">
+					<thead>
+						<tr>
+							<th></th>
+							<th>Size</th>
+							<th>POD</th>
+							<th>Drawing</th>
+							<th>Cost</th>
+							<th>Bulk Rate</th>
+							<th>Bulk Cost</th>
+							<th>Examples</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th rowspan="2">Fan Art</th>
+							<td>large</td>
+							<td class="prices-good">no</td>
+							<td>$40</td>
+							<td>$4</td>
+							<td> </td>
+							<td> </td>
+							<td>Sephiroth, Vash the Stampede</td>
+						</tr>
+						<tr>
+							<td>mini</td>
+							<td class="prices-good">no</td>
+							<td>$30</td>
+							<td>$2</td>
+							<td> </td>
+							<td> </td>
+							<td>Tony Tony Chopper, Raichu</td>
+						</tr>
+						<tr>
+							<th>OCs</th>
+							<td>large</td>
+							<td>yes</td>
+							<td>$60</td>
+							<td>$6</td>
+							<td>6+</td>
+							<td>$5</td>
+							<td>a fursona, a DnD character</td>
+						</tr>
+						<tr>
+							<th>People [head only]</th>
+							<td>large</td>
+							<td>yes</td>
+							<td>$25</td>
+							<td>$4</td>
+							<td>10+</td>
+							<td>$3</td>
+							<td>you, your fiance, your children, your BFF</td>
+						</tr>
+						<tr>
+							<th>Pets / Animals</th>
+							<td>mini</td>
+							<td>yes</td>
+							<td>$30</td>
+							<td>$4</td>
+							<td>12+</td>
+							<td>$3</td>
+							<td>my pet dog, a Red-tailed Hawk</td>
+						</tr>
+						<tr>
+							<th rowspan="2">Color Edits</th>
+							<td>large</td>
+							<td>yes</td>
+							<td>$10</td>
+							<td>$6</td>
+							<td>6+</td>
+							<td>$5</td>
+							<td>game pallet swaps, hair “dye”</td>
+						</tr>
+						<tr>
+							<td>mini</td>
+							<td>yes</td>
+							<td>$10</td>
+							<td>$4</td>
+							<td>12+</td>
+							<td>$3</td>
+							<td>shiny Pokemon, pet breed color variations</td>
+						</tr>
+					</tbody>
+				</table>
+
 				<p>Remember that shipping is not included in the above chart, and will be at the regular rates. (See the <a href="#/order">Order</a> section for current rates.)</p>
 				<p><strong>Size:</strong> Cosplay Scramble magnets come in two sizes: large and small/mini. Generally humans and humanoids are the large size, while animals or small creatures, like Pokemon, are the small size.</p>
 				<p><strong>POD:</strong> This column indicates whether magnets are print-on-demand (as opposed to pre-made). Print-on-demand magnets are not made until ordered, and are hand cut unless ordered in bulk.</p>
