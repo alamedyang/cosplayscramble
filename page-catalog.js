@@ -6,12 +6,14 @@ let statusSymbolMap = {
 	Retired: '✖&#xFE0E;',
 };
 
+let productData = [];
+
 let PageCatalog = Vue.component(
 	'page-catalog',
 	{
 		data: function () {
 			return {
-				list: [],
+				list: productData,
 				filteredList: [],
 				categories: [
 					{id: 1, on: true, name: 'Anime / Manga'},
@@ -37,24 +39,28 @@ let PageCatalog = Vue.component(
 		},
 		created: function () {
 			this.statusSymbolMap = statusSymbolMap;
-			this.getData();
+			if(this.list.length < 1){
+				this.getData();
+			}
 		},
 		methods: {
 			getData: function(){
-				let productList = this;
+				let productCatalog = this;
 				let sheetId = '1BoNBS5yB-kjJpqcZqpICtZJ-Jr-Rk0ednPiGj3-j470';
 				let sheetName = 'Sheet1';
 				//reference: https://gist.github.com/ronaldsmartin/47f5239ab1834c47088e
-				let dataSource = 'https://script.google.com/macros/s/AKfycbzGvKKUIaqsMuCj7-A2YRhR-f7GZjl4kSxSN1YyLkS01_CfiyE/exec?' + 'id=' + sheetId + '&sheet=' + sheetName;
-				let request = new XMLHttpRequest();
-				request.responseType = 'json';
-				request.addEventListener('load', function () {
-					let list = request.response['records'];
-					productList.list.push.apply(productList.list, list);
-					productList.filterList();
+				let dataSource = `https://script.google.com/macros/s/AKfycbzGvKKUIaqsMuCj7-A2YRhR-f7GZjl4kSxSN1YyLkS01_CfiyE/exec?id=${sheetId}&sheet=${sheetName}&callback=catalogLoadHandler`;
+				let script = document.createElement('script');
+				window.catalogLoadHandler = function (data) {
+					let list = data['records'];
+					productData.push.apply(productData, list);
+					productCatalog.filterList();
+				};
+				script.addEventListener('error', function () {
+					console.error('Could not load Catalog');
 				});
-				request.open('GET', dataSource, true);
-				request.send();
+				script.src = dataSource;
+				document.body.appendChild(script);
 			},
 			toggleFilter: function(item){
 				item.on = !item.on;
@@ -129,7 +135,9 @@ let PageCatalog = Vue.component(
 						<p>Total Products: {{list.length}}<br />Visible Products: {{filteredList.length}}</p>
 					</div>
 				</div>
-				<product-list :filteredList="filteredList" />
+				<product-list v-if="list.length > 0" :filteredList="filteredList" />
+				<h2 v-if="list.length < 1">Loading...</h2>
+				<h2 v-if="list.length > 0 && filteredList.length < 1">Change your filter settings to show products.</h2>
 			</section>
 		`
 	}
