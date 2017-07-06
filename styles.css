@@ -1,8 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	outline: 0;
 	vertical-align: inherit;
 	font-size: inherit;
 	line-height: inherit;
@@ -15,8 +13,12 @@
 	background-color: transparent;
 }
 
-body *:focus,
-body *:active {
+*:not(select):not(input){
+	border: 0;
+}
+
+body.clicked :not(input):not(select):focus,
+body.clicked :not(input):not(select):active{
 	outline: none;
 	text-decoration: none;
 }
@@ -131,9 +133,36 @@ a:link{
 	text-decoration: underline;
 }
 
+.symbol{
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	background-image: url('content/symbols.svg');
+	background-size: 6rem 1rem;
+	background-position: top left;
+	vertical-align: text-top;
+}
+.symbol.uncheck{
+	background-position-x: 0;
+}
+.symbol.check{
+	background-position-x: -1rem;
+}
+.symbol.link{
+	background-position-x: -2rem;
+}
+.symbol.Current{
+	background-position-x: -3rem;
+}
+.symbol.Retiring{
+	background-position-x: -4rem;
+}
+.symbol.Retired{
+	background-position-x: -5rem;
+}
+
 .sort-filter{
-	display: flex;
-	flex-flow: row wrap;
+	display: block;
 }
 .sort-filter .category-list{
 	width: 100%;
@@ -177,6 +206,10 @@ a:link{
 	flex: 1 50%;
 	max-width: 50%;
 	display: flex;
+}
+.flex-list li a{
+	display: block;
+	width: 100%;
 }
 
 .product-list .flex-list{
@@ -302,6 +335,10 @@ a:link{
 	header nav ul li{
 		width: auto;
 		flex: 1;
+	}
+	.sort-filter{
+		display: flex;
+		flex-flow: row wrap;
 	}
 	.product-list .flex-list li{
 		flex: 1 33.3333333%;

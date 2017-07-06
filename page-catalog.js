@@ -1,11 +1,5 @@
 "use strict";
 
-let statusSymbolMap = {
-	Current: '✔&#xFE0E',
-	Retiring: '<strong>!</strong>',
-	Retired: '✖&#xFE0E;',
-};
-
 let productData = [];
 
 let PageCatalog = Vue.component(
@@ -38,7 +32,6 @@ let PageCatalog = Vue.component(
 			};
 		},
 		created: function () {
-			this.statusSymbolMap = statusSymbolMap;
 			if(this.list.length < 1){
 				this.getData();
 			}
@@ -103,8 +96,10 @@ let PageCatalog = Vue.component(
 								<a class="item"
 									:class="'category-' + item.id"
 									@click="toggleFilter(item)"
+									@keyup.enter="toggleFilter(item)"
+									tabindex="0"
 									>
-									<span class="box">{{item.on ? '☑' : '☐'}}</span>
+									<span class="symbol" :class="item.on ? 'check' : 'uncheck'"/>
 									<span class="label">{{item.name}}</span>
 								</a>
 							</li>
@@ -114,15 +109,18 @@ let PageCatalog = Vue.component(
 						<h4>Status:</h4>
 						<ul>
 							<li v-for="item in statuses">
-								<a class="item"
-									:class="'status-' + item.name.toLocaleLowerCase()"
+								<a
+									class="item"
+									:class="'status-' + item.name"
 									@click="toggleFilter(item)"
+									@keyup.enter="toggleFilter(item)"
+									tabindex="0"
 									>
-									<span class="box">{{item.on ? '☑' : '☐'}}</span>
-									<span
-										class="label"
-										:class="'status-' + item.name"
-										v-html="statusSymbolMap[item.name] + ' ' +item.name" />
+									<span class="symbol" :class="item.on ? 'check' : 'uncheck'"/>
+									<span class="label">
+										<span class="symbol" :class="item.name" />
+										<span v-html="item.name" />
+									</span>
 								</a>
 							</li>
 						</ul>
@@ -168,9 +166,8 @@ Vue.component(
 		props: {
 			item: Object
 		},
-		created: function(){this.statusSymbolMap = statusSymbolMap;},
 		template: `
-			<a class="product">
+			<a class="product" tabindex="0">
 				<span class="image"><span class="image-crop"><img :src="'./content/characters/' + item.img_name" /></span></span>
 				<span class="description">
 					<span class="name" :class="'category category-' + item.cat_id">{{item.product_name}}</span>
@@ -178,12 +175,14 @@ Vue.component(
 						<strong :class="'instock-' + item.in_stock">
 							<span v-html="item.in_stock ? '$' + item.price : 'Out of Stock'" />
 							<span :class="'status-' + item.status">
-								<span v-html="statusSymbolMap[item.status]" />
+								<span class="symbol" :class="item.status" />
 								<a
 									v-if="item.etsy_live"
 									:href="'https://www.etsy.com/listing/' + item.etsy_live"
-									target="_blank"
-									v-html="'Etsy ➦&#xFE0E;'" />
+									target="_blank">
+									<span>Etsy</span>
+									<span class="symbol link" />
+								</a>
 							</span>
 						</strong>
 						<span class="series">from {{item.series}}</span>

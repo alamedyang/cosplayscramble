@@ -1,5 +1,22 @@
 "use strict";
 
+document.body.addEventListener(
+	'click',
+	function () {
+		document.body.classList.add('clicked');
+	},
+	true
+);
+document.body.addEventListener(
+	'keyup',
+	function (event) {
+		if([9, 13].indexOf(event.keyCode) !== -1){
+			document.body.classList.remove('clicked');
+		}
+	},
+	true
+);
+
 let app = {
 	router: new VueRouter({
 		routes: [
