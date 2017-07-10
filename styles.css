@@ -102,21 +102,23 @@ header nav ul li a.router-link-exact-active{
 }
 
 h1, h2, h3{
-	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
 }
 h1{
 	font-size: 2rem;
-	line-height: 3rem;
+	line-height: 2rem;
 	font-weight: 800;
+	padding-bottom: 1rem;
 }
 h2{
 	font-size: 1.5rem;
-	line-height: 3rem;
+	line-height: 2rem;
 	font-weight: 800;
 }
 h3{
 	font-size: 1.1rem;
-	line-height: 2rem;
+	line-height: 1rem;
 	font-weight: 800;
 }
 h4{
@@ -257,7 +259,8 @@ a:link{
 }
 .product .name{
 	font-size: 1rem;
-	line-height: 1.5rem;
+	line-height: 1.25rem;
+	padding-bottom: 0.25rem;
 	font-weight: 600;
 }
 .product .characters{
