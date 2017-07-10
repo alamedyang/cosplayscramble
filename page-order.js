@@ -22,26 +22,79 @@ let PageOrder = Vue.component(
 
 				<h2>Grab Bags</h2>
 				<p>I have a variety of blind grab bags available online, as well as at conventions that allow them, as an affordable way to acquire characters in bulk. You will not be able to see what characters are included until you open the bag, but I sometimes limit the <em>category</em> of the bag to help narrow things down. (See the <router-link :to="\{ path: '/catalog'}">Catalog</router-link> to learn about what characters are available in each of the six color-coded categories.)</p>
-				<p>I make grab bags in batches known to contain no duplicate products. So while I don’t know exactly what each bag contains, I am theoretically able to prevent duplicates when grab bags are ordered together (provided they aren’t ordered in too-great of a quantity). If you want bags from a specific batch, please let me know when you order.</p>
-				<p>All bags contain new, undamaged products.</p>
-				<h3>Grab Bags</h3>
 				<p><strong>Grab Bags</strong> are <strong>$5</strong>, and include <strong>at least 3 characters</strong> at a value of <strong>at least $10.</strong></p>
-				<p><strong>Now In Stock</strong><br />
-10x Grab Bags <span class="category-1">(Anime / Manga)</span> [batch A1]<br />
-7x Grab Bags <span class="category-1">(Anime / Manga)</span> [batch A2] <br />
-14x Grab Bags <span class="category-2">(Video Game</span> and <span class="category-4">Pokémon)</span> [batch V1]<br />
-13x Grab Bags <span class="category-2">(Video Game</span> and <span class="category-4">Pokémon)</span> [batch V2]<br />
-2x Grab Bags <span class="category-5">(Western Animation)</span> [batch W1]</p>
-				<h3>Super Grab Bags</h3>
 				<p><strong>Super Grab Bags</strong> are <strong>$20</strong>, and include <strong>at least 13 characters</strong> at a value of <strong>at least $50.</strong></p>
-				<p><strong>Now In Stock</strong><br />
-8x Super Grab Bags (all categories) [batch 0]<br />
-1x Super Grab Bag <span class="category-1">(Anime / Manga)</span> [batch A3]<br />
-4x Super Grab Bags <span class="category-1">(Anime / Manga)</span> [batch A4]<br />
-1x Super Grab Bag <span class="category-2">(Video Game</span> and <span class="category-4">Pokémon)</span> [batch V3]<br />
-4x Super Grab Bags <span class="category-2">(Video Game</span> and <span class="category-4">Pokémon)</span> [batch V4]<br />
-1x Super Grab Bag <span class="category-5">(Western Animation)</span> [batch W2]</p>
-
+				<p>I make grab bags in batches known to contain no duplicate products. So while I don’t know exactly what each bag contains, I am theoretically able to prevent duplicates when grab bags are ordered together (provided they aren’t ordered in too-great of a quantity). If you want bags from a specific batch please let me know when you order.</p>
+				<p>All bags contain new, undamaged products.</p>
+				<h3>Grab Bags Currrently In Stock</h3>
+				<div class="grab-bags-table-holder">
+				<table class="grab-bags-table" style="width: 80%;">
+					<thead>
+						<tr>
+							<th>Category</th>
+							<th>Type</th>
+							<th>Qty</th>
+							<th>Batch #</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th rowspan="4" class="category-1">Anime / Manga</th>
+							<td rowspan="2" class="super-gold">Super Grab Bag</td>
+							<td class="super-gold">1x</td>
+							<td class="super-gold">A0</td>
+						</tr>
+						<tr>
+							<td class="super-gold">4x</td>
+							<td class="super-gold">A1</td>
+						</tr>
+						<tr>
+							<td rowspan="2">Grab Bag</td>
+							<td>10x</td>
+							<td>A2</td>
+						</tr>
+						<tr>
+							<td>7x</td>
+							<td>A3</td>
+						<tr>
+							<th rowspan="4" class="category-2">Game and Pokémon</th>
+							<td rowspan="2" class="super-gold">Super Grab Bag</td>
+							<td class="super-gold">1x</td>
+							<td class="super-gold">V0</td>
+						</tr>
+						<tr>
+							<td class="super-gold">4x</td>
+							<td class="super-gold">V1</td>
+						</tr>
+						<tr>
+							<td rowspan="2">Grab Bag</td>
+							<td>14x</td>
+							<td>V2</td>
+						</tr>
+						<tr>
+							<td>13x</td>
+							<td>V3</td>
+						</tr>
+						<tr>
+							<th rowspan="2" class="category-5">Western Animation</th>
+							<td class="super-gold">Super Grab Bag</td>
+							<td class="super-gold">1x</td>
+							<td class="super-gold">W1</td>
+						</tr>
+						<tr>
+							<td>Grab Bag</td>
+							<td>2x</td>
+							<td>W2</td>
+						</tr>
+						<tr>
+							<th class="category-0">all categories</th>
+							<td class="super-gold">Super Grab Bag</td>
+							<td class="super-gold">1x</td>
+							<td class="super-gold">00</td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
 				<h2>Combos</h2>
 
 				<p>At conventions I offer discounts for certain combinations of sets. These are now also available online!</p>
