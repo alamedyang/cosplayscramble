@@ -180,8 +180,7 @@ Vue.component(
 									v-if="item.etsy_live"
 									:href="'https://www.etsy.com/listing/' + item.etsy_live"
 									target="_blank">
-									<span>Etsy</span>
-									<span class="symbol link" />
+									<span>(Etsy)</span>
 								</a>
 							</span>
 						</strong>
