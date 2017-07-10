@@ -20,7 +20,7 @@ let PageCustom = Vue.component(
 				<p><strong>OCs:</strong> Short for “original characters,” this category includes any original design of your own, including self-insert characters for commercial franchises. Common examples include fursonas, MLP ponysonas, and customized characters for popular anime. These are unique characters of your own design that would not be sold in the Artist Alley at anime conventions.</p>
 				<p><strong>People [head only]:</strong> This category is for drawings made from photos of you or anyone else you know in real life. For the time being, I will only draw heads from photos like this, meaning you will have to use bodies from other characters (to “cosplay”).</p>
 				<p><strong>Pets / Animals:</strong> I will draw your pet or a generic animal in a mini size.</p>
-				<p><strong>Color Edits:</strong> Any already-existing drawing can have its colors altered. (Lineart alterations count as a new commission in one of the above categories, though a reduced rate may be arranged depending on the scope of the alteration.)</p>
+				<p><strong>Color Edits:</strong> Any already-existing drawing can have its colors altered. (Lineart alterations count as a new commission in one of the above categories, though a reduced rate may be arranged depending on the scope of the requested alteration.)</p>
 				<p><strong>Other Special Orders:</strong> Other requests will be handled the same way as the next most-similar commission. E.g., a head-on-body non-decapitation order will be handled and charged like a POD magnet order.</p>
 
 				<h2>Prices</h2>

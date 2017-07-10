@@ -22,18 +22,25 @@ let PageOrder = Vue.component(
 
 				<h2>Grab Bags</h2>
 				<p>I have a variety of blind grab bags available online, as well as at conventions that allow them, as an affordable way to acquire characters in bulk. You will not be able to see what characters are included until you open the bag, but I sometimes limit the <em>category</em> of the bag to help narrow things down. (See the <router-link :to="\{ path: '/catalog'}">Catalog</router-link> to learn about what characters are available in each of the six color-coded categories.)</p>
-				<p>I make grab bags in batches, so while I don’t know exactly what each bag contains, I am theoretically able to prevent duplicates when grab bags are ordered together (provided they aren’t ordered in too-great of a quantity).</p>
+				<p>I make grab bags in batches known to contain no duplicate products. So while I don’t know exactly what each bag contains, I am theoretically able to prevent duplicates when grab bags are ordered together (provided they aren’t ordered in too-great of a quantity). If you want bags from a specific batch, please let me know when you order.</p>
+				<p>All bags contain new, undamaged products.</p>
+				<h3>Grab Bags</h3>
 				<p><strong>Grab Bags</strong> are <strong>$5</strong>, and include <strong>at least 3 characters</strong> at a value of <strong>at least $10.</strong></p>
+				<p><strong>Now In Stock</strong><br />
+10x Grab Bags <span class="category-1">(Anime / Manga)</span> [batch A1]<br />
+7x Grab Bags <span class="category-1">(Anime / Manga)</span> [batch A2] <br />
+14x Grab Bags <span class="category-2">(Video Game</span> and <span class="category-4">Pokémon)</span> [batch V1]<br />
+13x Grab Bags <span class="category-2">(Video Game</span> and <span class="category-4">Pokémon)</span> [batch V2]<br />
+2x Grab Bags <span class="category-5">(Western Animation)</span> [batch W1]</p>
+				<h3>Super Grab Bags</h3>
 				<p><strong>Super Grab Bags</strong> are <strong>$20</strong>, and include <strong>at least 13 characters</strong> at a value of <strong>at least $50.</strong></p>
-				<p><strong>Grab Bags Currently In Stock</strong><br />
-13x Grab Bags<br />
-6x Grab Bags (Anime)<br />
-4x Grab Bags (Video Game and Pokemon)<br />
-2x Grab Bags (Western Animation)</p>
-				<p><strong>Super Grab Bags Currently In Stock</strong><br />
-3x Super Grab Bag<br />
-1x Super Grab Bag (Anime)<br />
-1x Super Grab Bag (Video Game)</p>
+				<p><strong>Now In Stock</strong><br />
+8x Super Grab Bags (all categories) [batch 0]<br />
+1x Super Grab Bag <span class="category-1">(Anime / Manga)</span> [batch A3]<br />
+4x Super Grab Bags <span class="category-1">(Anime / Manga)</span> [batch A4]<br />
+1x Super Grab Bag <span class="category-2">(Video Game</span> and <span class="category-4">Pokémon)</span> [batch V3]<br />
+4x Super Grab Bags <span class="category-2">(Video Game</span> and <span class="category-4">Pokémon)</span> [batch V4]<br />
+1x Super Grab Bag <span class="category-5">(Western Animation)</span> [batch W2]</p>
 
 				<h2>Combos</h2>
 
