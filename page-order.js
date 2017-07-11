@@ -68,11 +68,11 @@ let PageOrder = Vue.component(
 						</tr>
 						<tr>
 							<td rowspan="2">Grab Bag</td>
-							<td>14x</td>
+							<td>18x</td>
 							<td>V2</td>
 						</tr>
 						<tr>
-							<td>13x</td>
+							<td>14x</td>
 							<td>V3</td>
 						</tr>
 						<tr>
@@ -124,7 +124,7 @@ WOW! All in-stock characters for $1.75 each! This is currently 288 characters! I
 				<p>Previously convention-exclusive, discounted sets are now available online! Discounted sets are not flawed enough to be discarded but are flawed enough to warrant being sold at a reduced rate. Sometimes it’s as simple as a fleck of dust under the lamination layer that causes a bubble, or a misalignment of the cut edge by 1-1.5 mm.</p>
 				<p><strong>Coming Soon!</strong></p>
 
-				<h2>Orphans</h2>
+				<h2>Orphaned Singless</h2>
 				<p>Sets with damaged pieces may leave orphaned characters/heads/bodies/accessories which are otherwise flawless. Such pieces were normally used at conventions are part of the “demo board” but are now available online! NOTE: Unlike magnets from the convention demo board, these orphans are in new condition unless mentioned otherwise.</p>
 				<p><strong>Coming Soon!</strong></p>
 			</section>
