@@ -27,6 +27,8 @@ let PageCatalog = Vue.component(
 					{id: 'sort_franchise_nocat', name: 'by franchise'},
 					{id: 'sort_product_cat', name: 'by product name (with category)'},
 					{id: 'sort_product_nocat', name: 'by product name'},
+					{id: 'sort_old_inv', name: 'newest to oldest'},
+					{id: 'sort_old', name: 'oldest to newest'},
 				],
 				sort: 'sort_franchise_cat'
 			};
