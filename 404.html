@@ -1,6 +1,11 @@
+<script>
 	let map = {
-		"bob":"/",
 		"comish":"/#/custom",
 		"commissions":"/#/custom",
 		"buy":"/#/order",
-	}
+	};
+	let path = window.location.pathname;
+	let lastSegment = path.split('/').pop();
+	let destination = map[lastSegment] || '/';
+	window.location = destination;
+</script>
