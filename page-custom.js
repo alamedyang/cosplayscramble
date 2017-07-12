@@ -93,7 +93,7 @@ let PageCustom = Vue.component(
 							<th rowspan="2">Color Edits</th>
 							<td>large</td>
 							<td>yes</td>
-							<td>$10</td>
+							<td>$15</td>
 							<td>$6</td>
 							<td class="optional">6+</td>
 							<td class="optional">$5</td>
