@@ -32,6 +32,17 @@ app.router.afterEach(function(){
 	window.scrollTo(0, 0);
 });
 
+Vue.use(
+	VueAnalytics,
+	{
+		id: 'UA-37411650-2',
+		autoTracking: {
+			exception: true
+		},
+		router: app.router
+	}
+);
+
 app.vue = new Vue({
 	el: '#appTarget',
 	data: {
