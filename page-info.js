@@ -11,7 +11,7 @@ let PageInfo = Vue.component(
 				<p>Cosplay Scramble has been a big part of my last seven years, but my life has been moving in another direction so I’ve decided to retire.</p>
 				<p>I’m very grateful for all of you who love my magnets and who have supported me on Etsy and at conventions these many years. I hope my magnets continue to delight you on your fridges and lockers, whether you are “mixers” or “matchers!”</p>
 				<p>My Etsy shop will remain as it is now until I run out of magnets to sell, but I will be scaling back production through the beginning of 2018, when I will stop entirely. And effective immediately, a vast number of sets are retiring and will not be remade once they are sold out.</p>
-				<p>But I am happy to announce that I am reopening <router-link :to="\{ path: '/custom'}">commissions</router-link>! (Fan art commissions will be given priority, to make them available for the last round of conventions.)</p>
+				<p>But I am happy to announce that I am reopening <router-link :to="\{ path: '/custom'}">commissions</router-link>! Fan art commissions will be given priority, to make them available for the last round of conventions.</p>
  				<p>Announcements about future convention attendance will be made here as details become available, though I can confirm now that I’m gonna be at Anime Banzai in October 2017 (SLC, UT).</p>
  				<p>Again, thank you for your support and for a wonderful seven years!</p>
 				<p> Cheers,<br />
