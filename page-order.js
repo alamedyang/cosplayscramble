@@ -39,12 +39,8 @@ let PageOrder = Vue.component(
 					</thead>
 					<tbody>
 						<tr>
-							<th rowspan="4" class="category-1">Anime / Manga</th>
-							<td rowspan="2" class="super-gold">Super Grab Bag</td>
-							<td class="super-gold">1x</td>
-							<td class="super-gold">A0</td>
-						</tr>
-						<tr>
+							<th rowspan="3" class="category-1">Anime / Manga</th>
+							<td class="super-gold">Super Grab Bag</td>
 							<td class="super-gold">4x</td>
 							<td class="super-gold">A1</td>
 						</tr>
