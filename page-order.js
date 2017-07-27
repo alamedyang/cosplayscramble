@@ -107,14 +107,14 @@ Every My Little Pony character I have in stock. Save $23!</p>
 				<p><strong>All Pokémon characters: $85</strong><br />
 Every Pokémon character I have in stock. Currently includes 15 trainers and 37 Pokémon! Save $54!</p>
 
-				<p><strong>All Anime/Manga characters: $297</strong><br />
-All in-stock Anime/Manga characters (currently 103 total), 25% off! Save $99!</p>
+				<p><strong>All Anime/Manga characters: $288</strong><br />
+All in-stock Anime/Manga characters (currently 100 total), 25% off! Save $96!</p>
 
 				<p><strong>All Video Game characters: $166.50</strong><br />
 All in-stock Video Game characters (currently 56 total), 25% off! Save $55.50!</p>
 
-				<p><strong>EVERY MAGNET I HAVE IN STOCK: $504</strong><br />
-WOW! All in-stock characters for $1.75 each! This is currently 288 characters! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS!</p>
+				<p><strong>EVERY MAGNET I HAVE IN STOCK: $499</strong><br />
+WOW! All in-stock characters for $1.75 each! This is currently 285 characters! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS!</p>
 
 				<h2>Discounted Sets</h2>
 				<p>Previously convention-exclusive, discounted sets are now available online! Discounted sets are not flawed enough to be discarded but are flawed enough to warrant being sold at a reduced rate. Sometimes it’s as simple as a fleck of dust under the lamination layer that causes a bubble, or a misalignment of the cut edge by 1-1.5 mm.</p>
