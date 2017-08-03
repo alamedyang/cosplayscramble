@@ -125,7 +125,7 @@ let PageCustom = Vue.component(
 				<p>There are limitations on poses and characters due to the format, so arms cannot be above the character’s head and thin pieces like tails or antenna will have to be thickened so the magnet won’t break off. In addition, Cosplay Scramble magnets cannot be made from characters without a workable jawline, such as characters whose entire body is their head (e.g. Jigglypuff) or bulky characters without anything resembling the anatomy of a neck (e.g. Totoro).</p>
 
 				<h3>Reserve a Slot</h3>
-				<p>To reserve a slot, <strong><a href="mailto:contact@cosplayscramble.com?Subject=Reserve%20a%20slot">email me</a> with the words “reserve a slot” in the subject line.</strong></p>
+				<p>To reserve a slot, <strong><a href="mailto:cosplayscramble@gmail.com?Subject=Reserve%20a%20slot">email me</a> with the words “reserve a slot” in the subject line.</strong></p>
 				<p>I’ll also need to know who or what you’d like me to draw. If your commission is fan art, you’ll need to let me know if there’s a specific outfit you would prefer. If your commission is an original character, I’ll need head-to-toe reference. <strong>Attach or link any relevant images</strong> at this step. I might have questions about specific details, particularly for characters from franchises I’m not familiar with.</p>
 				<p>If you have any special requests, let me know at this point in case it will affect the final price. Special requests can include custom packaging (perhaps for a party), shipping to multiple addresses, non-decapitation, etc.</p>
 				<p>Once we’ve agreed on what I will be drawing, your slot is reserved! I will pick a codeword to represent your order in the Commissions Slot list above.</p>
@@ -142,7 +142,7 @@ let PageCustom = Vue.component(
 				<p>Fan art commissions will appear in the General Catalog at this point, and will also be available at any future conventions (while supplies last).</p>
 
 				<h2>Contact</h2>
-				<p>Questions? Send me an <a href="mailto:contact@cosplayscramble.com?Subject=A%20question">email me</a> or convo me on Etsy.</p>
+				<p>Questions? Send me an <a href="mailto:cosplayscramble@gmail.com?Subject=A%20question">email me</a> or convo me on Etsy.</p>
 
 			</section>
 		`

@@ -6,12 +6,12 @@ let PageOrder = Vue.component(
 		template: `
 			<section class="page-order">
 				<h1>Ordering</h1>
-				<p>To make an order, please <a href="mailto:contact@cosplayscramble.com?Subject=My%20Order">email me</a> with the product names you would like to buy and I will arrange a Paypal invoice — no Paypal account required. (Something more automated should be coming soon!) Anything listed in the <router-link :to="\{ path: '/catalog'}">Catalog</router-link> or further down on this page is available to buy both online and in person at anime conventions. Let me know if you want priority shipping.</p>
+				<p>To make an order, please <a href="mailto:cosplayscramble@gmail.com?Subject=My%20Order">email me</a> with the product names you would like to buy and I will arrange a Paypal invoice — no Paypal account required. (Something more automated should be coming soon!) Anything listed in the <router-link :to="\{ path: '/catalog'}">Catalog</router-link> or further down on this page is available to buy both online and in person at anime conventions. Let me know if you want priority shipping.</p>
 				<p>All prices are in US Dollars.</p>
 				<p>Customers not satisfied with the quality of their purchased magnets should contact me within one week of receiving them, along with a photo or scan of the unsatisfactory magnets. Such magnets may be eligible for free replacement. (Please save the packaging if you have a complaint, as the batch number can help me understand what problems you might be having.)</p>
 
 				<h2>Shipping</h2>
-				<p>Shipping rates: $3 to the US ($6.50 for priority), $9 to Canada, and $13 elsewhere. Priority to other countries is much more expensive and not much faster than first class mail, but can be arranged if required — please <a href="mailto:contact@cosplayscramble.com?Subject=Priority%20Shipping%20International">email me</a> for a price estimate.</p>
+				<p>Shipping rates: $3 to the US ($6.50 for priority), $9 to Canada, and $13 elsewhere. Priority to other countries is much more expensive and not much faster than first class mail, but can be arranged if required — please <a href="mailto:cosplayscramble@gmail.com?Subject=Priority%20Shipping%20International">email me</a> for a price estimate.</p>
 				<p>Packages to the US usually arrive 2-4 days after shipping, and international orders usually arrive in 7-10 days, though packages can of course be randomly delayed, particularly when customs become involved. If prompt arrival is important, consider that priority mail has guarantees for delivery dates whereas first class mail does not.</p>
 				<p>Orders will be shipped within one or two days, but orders involving custom work will be shipped when the custom work is done.</p>
 				<p>I am not responsible for VAT or any other import fees, so please be aware of your country’s policies for international mail. (I am also unwilling to lie about the value of the package on custom forms.)</p>
