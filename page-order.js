@@ -110,8 +110,8 @@ Every Pokémon character I have in stock. Currently includes 15 trainers and 37 
 				<p><strong>All Anime/Manga characters: $288</strong><br />
 All in-stock Anime/Manga characters (currently 100 total), 25% off! Save $96!</p>
 
-				<p><strong>All Video Game characters: $166.50</strong><br />
-All in-stock Video Game characters (currently 56 total), 25% off! Save $55.50!</p>
+				<p><strong>All Video Game characters: $157.50</strong><br />
+All in-stock Video Game characters (currently 53 total), 25% off! Save $52.50!</p>
 
 				<p><strong>EVERY MAGNET I HAVE IN STOCK: $499</strong><br />
 WOW! All in-stock characters for $1.75 each! This is currently 285 characters! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS!</p>
