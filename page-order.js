@@ -88,7 +88,7 @@ let PageOrder = Vue.component(
 						<tr>
 							<th class="category-0">all categories</th>
 							<td class="super-gold">Super Grab Bag</td>
-							<td class="super-gold">1x</td>
+							<td class="super-gold">8x</td>
 							<td class="super-gold">00</td>
 						</tr>
 					</tbody>
