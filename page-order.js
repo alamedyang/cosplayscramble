@@ -41,12 +41,12 @@ let PageOrder = Vue.component(
 						<tr>
 							<th rowspan="3" class="category-1">Anime / Manga</th>
 							<td class="super-gold">Super Grab Bag</td>
-							<td class="super-gold">4x</td>
+							<td class="super-gold">1x</td>
 							<td class="super-gold">A1</td>
 						</tr>
 						<tr>
 							<td rowspan="2">Grab Bag</td>
-							<td>10x</td>
+							<td>5x</td>
 							<td>A2</td>
 						</tr>
 						<tr>
@@ -59,12 +59,12 @@ let PageOrder = Vue.component(
 							<td class="super-gold">V0</td>
 						</tr>
 						<tr>
-							<td class="super-gold">4x</td>
+							<td class="super-gold">3x</td>
 							<td class="super-gold">V1</td>
 						</tr>
 						<tr>
 							<td rowspan="2">Grab Bag</td>
-							<td>18x</td>
+							<td>16x</td>
 							<td>V2</td>
 						</tr>
 						<tr>
@@ -98,31 +98,66 @@ let PageOrder = Vue.component(
 				<p><strong>All 8 Classic Doctors: $28</strong><br />
 First Doctor through Eighth Doctor. Save $4!</p>
 
-				<p><strong>All Doctor Who characters: $48</strong><br />
-First Doctor through Twelfth Doctor plus DW Companions Set 2. (DW Companions Set 1 is sold out and retired, unfortunately.) Save $12!</p>
+				<p><strong>All Remaining My Little Pony characters: $25</strong><br />
+Every My Little Pony character I have in stock. Save $17!</p>
+				<!-- 10.5 pts, $42 ordinarily -->
 
-				<p><strong>All My Little Pony characters: $49</strong><br />
-Every My Little Pony character I have in stock. Save $23!</p>
+				<p><strong>All Pokémon characters: $80</strong><br />
+Every Pokémon character I have in stock. Currently includes 12 trainers and 35 Pokémon! Save $40!</p>
+				<!-- 30 pts, $120 ordinarily -->
 
-				<p><strong>All Pokémon characters: $85</strong><br />
-Every Pokémon character I have in stock. Currently includes 15 trainers and 37 Pokémon! Save $54!</p>
+				<p><strong>All Anime/Manga characters: $241.50</strong><br />
+All in-stock Anime/Manga characters (currently 83 total), 25% off! Save $80.50!</p>
+				<!-- 80.5 pts, $322 ordinarily -->
 
-				<p><strong>All Anime/Manga characters: $282</strong><br />
-All in-stock Anime/Manga characters (currently 98 total), 25% off! Save $94!</p>
+				<p><strong>All Video Game characters: $136.50</strong><br />
+All in-stock Video Game characters (currently 46 total), 25% off! Save $45.50!</p>
+				<!-- 45.5 pts, $182 ordinarily -->
 
-				<p><strong>All Video Game characters: $157.50</strong><br />
-All in-stock Video Game characters (currently 53 total), 25% off! Save $52.50!</p>
-
-				<p><strong>EVERY MAGNET I HAVE IN STOCK: $490</strong><br />
-WOW! All in-stock characters for $1.75 each! This is currently 280 characters! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS!</p>
+				<p><strong>EVERY MAGNET I HAVE IN STOCK: $407.75</strong><br />
+WOW! All in-stock characters for $1.75 each! This is currently 233 characters! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS!</p>
 
 				<h2>Discounted Sets</h2>
 				<p>Previously convention-exclusive, discounted sets are now available online! Discounted sets are not flawed enough to be discarded but are flawed enough to warrant being sold at a reduced rate. Sometimes it’s as simple as a fleck of dust under the lamination layer that causes a bubble, or a misalignment of the cut edge by 1-1.5 mm.</p>
-				<p><strong>Coming Soon!</strong></p>
+				<p><strong>Dragonball Z Set 1: $6</strong> (normally $8)<br />
+Miscellaneous small defects</p>
+				<p><strong>Hunter x Hunter Set: $6</strong> (normally $8)<br />
+Slightly used</p>
+				<p><strong>Dragonball Z Set 2: $4</strong> (normally $8)<br />
+Misaligned cut</p>
+				<p><strong>Mass Effect Set 1: $5</strong> (normally $8)<br />
+Misaligned cut</p>
+				<p><strong>Harry Potter: $3</strong> (normally $4)<br />
+Red dot in hair</p>
+				<p><strong>Ninth Doctor: $3</strong> (normally $4)<br />
+Dot under lamination layer</p>
+				<p><strong>Firefly Set 2: $8</strong> (normally $12)<br />
+Dust under lamination layer; torn paper under lamination layer</p>
+				<p><strong>Deadpool: $2</strong> (normally $4)<br />
+Ripped foot</p>
 
 				<h2>Orphaned Singless</h2>
 				<p>Sets with damaged pieces may leave orphaned characters/heads/bodies/accessories which are otherwise flawless. Such pieces were normally used at conventions are part of the “demo board” but are now available online! NOTE: Unlike magnets from the convention demo board, these orphans are in new condition unless mentioned otherwise.</p>
-				<p><strong>Coming Soon!</strong></p>
+				<p><strong>Yuu Yuu Hakusho Hiei Set, Hiei only: $3</strong> (two available)<br />
+normally bundled with Hiei for $8</p>
+				<p><strong>Spirited Away Set 2, No Face only: $2</strong> (two available)<br />
+normally bundled with "Mouse and Bird" for $6</p>
+				<p><strong>Final Fantasy XIII Set, Lightning only: $3</strong> (two available)<br />
+normally bundled with Hope for $8</p>
+				<p><strong>Mass Effect Set 1, Garrus only: $3</strong> (six available)<br />
+normally bundled with Wrex for $8</p>
+				<p><strong>Korra Set, Bolin only: $2</strong> (two available)<br />
+normally bundled with Mako and Korra for $12; in addition, Bolin's foot has been cut into slightly</p>
+				<p><strong>Chrono Trigger Set 2, Magus only: $3</strong><br />
+normally bundled with Frog and Ayla for $12</p>
+				<p><strong>Firefly Set 3, Kaylee and Simon only: $5</strong><br />
+normally bundled with River and bloody knives for $12</p>
+				<p><strong>Firefly Set 3, Kaylee and Simon with River's body: $6</strong><br />
+normally bundled with River's head and bloody knives for $12</p>
+				<p><strong>Lizbeth from Pokémon (unreleased): $1</strong> (many available)<br />
+never released character!</p>
+				<p><strong>Gym Leader Skyla from Pokémon (unreleased): $1</strong> (many available)<br />
+never released character!</p>
 			</section>
 		`
 	}
