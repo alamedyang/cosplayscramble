@@ -21,9 +21,10 @@ Mary Jenkins</p>
 				<p><img src="content/miniskirt.png" alt="Colonel Mustang dressed as Haruhi Suzumiya" title="Colonel Mustang is dead sexy... in a miniskirt!" width="150" /></p>
 
 				<h2>Convention List</h2>
-				<p><strong>Anime Banzai,</strong> October 20-22, 2017 in Layton, Utah (20 minutes north of SLC)</p>
+				<p><em>none currently planned</em></p>
 
 				<h2>About Cosplay Scramble</h2>
+				<p><img src="content/etsyphoto.png" width="250" height="250" alt="Sailor Moon's body is being placed underneath Inuyasha's head, with 3D specs off to the side." title="The popular Sailor Yasha." ></p>
 				<p>Cosplay Scramble is a line of fan art magnets with swappable heads, available in the Artist Alley at anime conventions in Utah and nearby states since 2010.</p>
 				<p><strong>How the magnets are made:</strong> Characters are sketched by hand and inked and colored in Photoshop using a Wacom tablet. I use a Xerox laser printer to print pages of the drawings on high-quality paper, and use a Xyron 900 laminator and its magnet cartridges to apply magnet backing and lamination. The magnets are then cut with a KNK Zing with touch ups by hand using a specific type of Wescott titanium scissors (though older magnets were 100% hand-cut). Packaging is printed onto cardstock and scored and cut by hand.</p>
 
@@ -44,10 +45,13 @@ Mary Jenkins</p>
 				<span class="a">A. Technically yes, but I wouldn't recommend it. Depending on the car body's material, the magnets will likely not stick strongly enough to resist being brushed off on accident. There's also concern for weatherproofing — while most of the materials resist sun damage, grime, heat, cold, and even humidity fairly well, the paper itself does not. Even if the paper does not weaken or disintegrate in heavy rain, water seeped into the interior of the paper takes time to dry and will probably mildew if wetted several times.</span></p>
 
 				<p><span class="q">Q. Why is shipping so expensive to my country?</span><br />
-				<span class="a">A. On Etsy I’m required to use the parcel rate, which is unfortunately a great deal more expensive than the letter rate. When mailing international packages in person at the post office, it’s true that I <em>have</em> occasionally been granted use of the letter rate, but I have also on occasion been <em>denied</em> the letter rate, so I choose not to offer the letter rate at all, especially since anything more than a couple sets would have to be sent at the parcel rate anyway. This, combined with the enormous advantage of package tracking for parcels, is why I do not offer a letter rate for international shipping.</span></p>
+				<span class="a">A. On Etsy I’m required to use the parcel rate, which is unfortunately a great deal more expensive than the letter rate. When mailing international packages in person at the post office, it’s true that I <em>have</em> occasionally been granted use of the letter rate, but I have also on occasion been <em>denied</em> the letter rate, so I choose not to offer the letter rate at all, especially since anything more than a couple sets would have to be sent at the parcel rate anyway. There is also the enormous advantage of package tracking for parcels, which is important to protect both myself and the buyer.</span></p>
 
 				<p><span class="q">Q. When will you be at X convention again?</span><br />
-				<span class="a">A. I might not do conventions any more, unfortunately. They are a lot of work and I honestly don't make enough money to justify the effort. (My profit margin is almost nothing, and a booth can cost up to $350 — never mind general travel expenses.) As I live in Salt Lake City, Utah, I may continue to sell at conventions in northern Utah as I can until my supply runs out. I’ve got my eye on Anime Banzai 2017, but other than that I can’t say for sure.</span></p>
+				<span class="a">A. I might not do conventions any more, unfortunately. They are a lot of work and I honestly don't make enough money to justify the effort. (My profit margin is almost nothing, and a booth can cost up to $350 — never mind general travel expenses.) As I live in Salt Lake City, Utah, I may continue to sell at conventions in northern Utah as I can until my supply runs out.</span></p>
+
+				<p><span class="q">Q. Why aren't you making magnets anymore?</span><br />
+				<span class="a">These magnets are a lot of work to make and my health can't keep up with their manufacture nor the exhausting convention circuit. And because they are fan art, I can't send them out to be made nor can I put them in stores. Doing Cosplay Scramble gave me confidence and motivated me to keep drawing, but I have found other things that do the same and so I will do those things instead.</span></p>
 
 				<p><span class="q">Q. Scrambled eggs?</span class="q"><br />
 				<span class="a">A. "Scramble" <em>is</em> in the name! <a href="https://www.flickr.com/photos/wackyland/8016622427/" target="_blank">The image is by "kyle tsui"</a> and is used under the Creative Commons 2.0 Attribution license.</span></p>
