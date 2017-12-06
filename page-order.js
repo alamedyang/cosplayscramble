@@ -42,12 +42,7 @@ let PageOrder = Vue.component(
 					</thead>
 					<tbody>
 						<tr>
-							<th rowspan="3" class="category-1">Anime / Manga</th>
-							<td class="super-gold">Super Grab Bag</td>
-							<td class="super-gold">1x</td>
-							<td class="super-gold">A1</td>
-						</tr>
-						<tr>
+							<th rowspan="2" class="category-1">Anime / Manga</th>
 							<td rowspan="2">Grab Bag</td>
 							<td>5x</td>
 							<td>A2</td>
@@ -116,9 +111,9 @@ First Doctor through Eighth Doctor. Save $4!</p>
 				<p><strong>All Firefly Sets: $25</strong><br />
 All nine crew members. Save $11!</p>
 
-				<p><strong>All Remaining My Little Pony characters: $25</strong><br />
-Every My Little Pony character I have in stock. Save $17!</p>
-				<!-- 10.5 pts, $42 ordinarily -->
+				<p><strong>All Remaining My Little Pony characters: $22</strong><br />
+Every My Little Pony character I have in stock. Save $12!</p>
+				<!-- 8.5 pts, $34 ordinarily -->
 
 				<p><strong>All Pokémon characters: $80</strong><br />
 Every Pokémon character I have in stock. Currently includes 12 trainers and 35 Pokémon! Save $40!</p>
@@ -132,8 +127,8 @@ All in-stock Anime/Manga characters (currently 83 total), 25% off! Save $80.50!<
 All in-stock Video Game characters (currently 46 total), 25% off! Save $45.50!</p>
 				<!-- 45.5 pts, $182 ordinarily -->
 
-				<p><strong>EVERY MAGNET I HAVE IN STOCK: $407.75</strong><br />
-WOW! All in-stock characters for $1.75 each! This is currently 233 characters! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS!</p>
+				<p><strong>EVERY MAGNET I HAVE IN STOCK: $348.25</strong><br />
+WOW! All in-stock characters for $1.75 each! This is currently 199 characters! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS!</p>
 
 				<h2>Discounted Sets</h2>
 				<p>Previously convention-exclusive, discounted sets are now available online! Discounted sets are not flawed enough to be discarded but are flawed enough to warrant being sold at a reduced rate. Sometimes it’s as simple as a fleck of dust under the lamination layer that causes a bubble, or a misalignment of the cut edge by 1-1.5 mm.</p>
@@ -145,8 +140,6 @@ Slightly used</p>
 Misaligned cut</p>
 				<p><strong>Mass Effect Set 1: $5</strong> (normally $8)<br />
 Misaligned cut</p>
-				<p><strong>Harry Potter: $3</strong> (normally $4)<br />
-Red dot in hair</p>
 				<p><strong>Ninth Doctor: $3</strong> (normally $4)<br />
 Dot under lamination layer</p>
 				<p><strong>Firefly Set 2: $8</strong> (normally $12)<br />
@@ -158,7 +151,7 @@ Ripped foot (repaired but with seam visible)</p>
 				<p>Sets with damaged pieces may leave orphaned characters/heads/bodies/accessories which are otherwise flawless. Such pieces were normally used at conventions are part of the “demo board” but are now available online! NOTE: Unlike magnets from the convention demo board, these orphans are in new condition unless mentioned otherwise.</p>
 				<p><strong>Yuu Yuu Hakusho Hiei Set, Hiei only: $3</strong> (two available)<br />
 normally bundled with Hiei for $8</p>
-				<p><strong>Spirited Away Set 2, No Face only: $2</strong> (two available)<br />
+				<p><strong>Spirited Away Set 2, No Face only: $2</strong> (one available)<br />
 normally bundled with "Mouse and Bird" for $6</p>
 				<p><strong>Final Fantasy XIII Set, Lightning only: $3</strong> (two available)<br />
 normally bundled with Hope for $8</p>
