@@ -44,7 +44,7 @@ let PageOrder = Vue.component(
 						<tr>
 							<th rowspan="2" class="category-1">Anime / Manga</th>
 							<td rowspan="2">Grab Bag</td>
-							<td>5x</td>
+							<td>4x</td>
 							<td>A2</td>
 						</tr>
 						<tr>
@@ -140,12 +140,8 @@ Slightly used</p>
 Misaligned cut</p>
 				<p><strong>Mass Effect Set 1: $5</strong> (normally $8)<br />
 Misaligned cut</p>
-				<p><strong>Ninth Doctor: $3</strong> (normally $4)<br />
-Dot under lamination layer</p>
 				<p><strong>Firefly Set 2: $8</strong> (normally $12)<br />
 Dust under lamination layer; torn paper under lamination layer</p>
-				<p><strong>Deadpool: $2</strong> (normally $4)<br />
-Ripped foot (repaired but with seam visible)</p>
 
 				<h2>Orphaned Singless</h2>
 				<p>Sets with damaged pieces may leave orphaned characters/heads/bodies/accessories which are otherwise flawless. Such pieces were normally used at conventions are part of the “demo board” but are now available online! NOTE: Unlike magnets from the convention demo board, these orphans are in new condition unless mentioned otherwise.</p>
