@@ -134,12 +134,12 @@ WOW! All in-stock characters for $1.75 each! This is currently 199 characters! I
 				<p>Previously convention-exclusive, discounted sets are now available online! Discounted sets are not flawed enough to be discarded but are flawed enough to warrant being sold at a reduced rate. Sometimes it’s as simple as a fleck of dust under the lamination layer that causes a bubble, or a misalignment of the cut edge by ≈.25 mm.</p>
 				<p><strong>Dragonball Z Set 1: $6</strong> (normally $8)<br />
 Miscellaneous small defects</p>
-				<p><strong>Hunter x Hunter Set: $6</strong> (normally $8)<br />
-Slightly used</p>
-				<p><strong>Dragonball Z Set 1: $5</strong> (normally $8)<br />
+				<p><strong>Dragonball Z Set 1: $6</strong> (normally $8)<br />
 Dust under lamination layer (Goku's face)</p>
 				<p><strong>Dragonball Z Set 2: $4</strong> (normally $8)<br />
 Misaligned cut</p>
+				<p><strong>Hunter x Hunter Set: $6</strong> (normally $8)<br />
+Slightly used</p>
 				<p><strong>Mass Effect Set 1: $5</strong> (normally $8)<br />
 Misaligned cut</p>
 				<p><strong>1th Doctor: $3</strong> (normally $4)<br />
@@ -157,8 +157,6 @@ Tiny bare patches in magnet layer on edges</p>
 				<p>Sets with damaged pieces may leave orphaned characters/heads/bodies/accessories which are otherwise flawless. Such pieces were normally used at conventions are part of the “demo board” but are now available online! NOTE: Unlike magnets from the convention demo board, these orphans are in new condition unless mentioned otherwise.</p>
 				<p><strong>Yuu Yuu Hakusho Hiei Set, Hiei only: $3</strong> (two available)<br />
 normally bundled with Hiei for $8</p>
-				<p><strong>Spirited Away Set 2, No Face only: $2</strong> (one available)<br />
-normally bundled with "Mouse and Bird" for $6</p>
 				<p><strong>Final Fantasy XIII Set, Lightning only: $3</strong> (two available)<br />
 normally bundled with Hope for $8</p>
 				<p><strong>Mass Effect Set 1, Garrus only: $3</strong> (six available)<br />
