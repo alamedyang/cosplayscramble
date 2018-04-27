@@ -9,7 +9,7 @@ let PageInfo = Vue.component(
 				<h2>News: Retirement Update, April 2018</h2>
 				<p>Hi, folks!</p>
 				<p>Mass production of magnets have stopped, but I am still accepting custom orders and commissions until at least the end of 2018. Magnets made from here on out will be hand cut and print-on-demand only, meaning partial set orders are now possible! The current print-on-demand price is $6 for large characters and $4 for mini characters, and anything goes!</p>
-				<p>Recently-commissioned characters are available as print-on-demand magnets, as well — see the <router-link :to="\{ path: '/order'}">Order</router-link> section to see them!</p>
+				<p>Recently-commissioned characters are available as print-on-demand magnets, as well — see the <router-link :to="\{ path: '/catalog'}">Catalog</router-link> section to see them!</p>
 
 				<h2>News: Cosplay Scramble Ending in 2018</h2>
 				<p>Hello, everyone!</p>
