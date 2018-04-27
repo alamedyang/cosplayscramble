@@ -18,9 +18,9 @@ let PageCatalog = Vue.component(
 					{id: 6, on: true, name: 'Miscellaneous'},
 				],
 				statuses: [
-					{on: true, name: 'Current'},
 					{on: true, name: 'Retiring'},
-					{on: false, name: 'Retired'},
+					{on: true, name: 'Retired'},
+					{on: true, name: 'Unreleased'},
 				],
 				sorts: [
 					{id: 'sort_franchise_cat', name: 'by franchise (with category)'},
