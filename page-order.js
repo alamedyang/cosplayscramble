@@ -56,7 +56,7 @@ let PageOrder = Vue.component(
 						<tr>
 							<th rowspan="2" class="category-1">Anime / Manga</th>
 							<td rowspan="2">Grab Bag</td>
-							<td>4x</td>
+							<td>1x</td>
 							<td>A2</td>
 						</tr>
 						<tr>
@@ -74,7 +74,7 @@ let PageOrder = Vue.component(
 						</tr>
 						<tr>
 							<td rowspan="2">Grab Bag</td>
-							<td>16x</td>
+							<td>14x</td>
 							<td>V2</td>
 						</tr>
 						<tr>
@@ -95,7 +95,7 @@ let PageOrder = Vue.component(
 						<tr>
 							<th class="category-0">all categories</th>
 							<td class="super-gold">Super Grab Bag</td>
-							<td class="super-gold">8x</td>
+							<td class="super-gold">7x</td>
 							<td class="super-gold">00</td>
 						</tr>
 					</tbody>
