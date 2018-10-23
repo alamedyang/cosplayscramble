@@ -6,6 +6,9 @@ let PageInfo = Vue.component(
 		template: `
 			<section class="page-info">
 				<h1>Information</h1>
+				<h2>News: Oopsie (Oct 22, 2018)</h2>
+				<p>I just discovered that my black business cards have had the wrong email address for a year or more. To contact me, please use <a href="mailto:cosplayscramble@gmail.com">cosplayscramble@gmail.com</a> and not contact@cosplayscramble.com. I have not been receiving mail to the second address.</p>
+
 				<h2>News: Retirement Update, April 2018</h2>
 				<p>Hi, folks!</p>
 				<p>Mass production of magnets have stopped, but I am still accepting custom orders and commissions until at least the end of 2018. Magnets made from here on out will be hand cut and print-on-demand only, meaning partial set orders are now possible! The current print-on-demand price is $6 for large characters and $4 for mini characters, and anything goes!</p>

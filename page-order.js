@@ -54,27 +54,9 @@ let PageOrder = Vue.component(
 					</thead>
 					<tbody>
 						<tr>
-							<th rowspan="2" class="category-1">Anime / Manga</th>
+							<th rowspan="2" class="category-2">Game and Pokémon</th>
 							<td rowspan="2">Grab Bag</td>
-							<td>1x</td>
-							<td>A2</td>
-						</tr>
-						<tr>
-							<td>7x</td>
-							<td>A3</td>
-						<tr>
-							<th rowspan="4" class="category-2">Game and Pokémon</th>
-							<td rowspan="2" class="super-gold">Super Grab Bag</td>
-							<td class="super-gold">1x</td>
-							<td class="super-gold">V0</td>
-						</tr>
-						<tr>
-							<td class="super-gold">3x</td>
-							<td class="super-gold">V1</td>
-						</tr>
-						<tr>
-							<td rowspan="2">Grab Bag</td>
-							<td>14x</td>
+							<td>9x</td>
 							<td>V2</td>
 						</tr>
 						<tr>
@@ -82,20 +64,9 @@ let PageOrder = Vue.component(
 							<td>V3</td>
 						</tr>
 						<tr>
-							<th rowspan="2" class="category-5">Western Animation</th>
-							<td class="super-gold">Super Grab Bag</td>
-							<td class="super-gold">1x</td>
-							<td class="super-gold">W1</td>
-						</tr>
-						<tr>
-							<td>Grab Bag</td>
-							<td>2x</td>
-							<td>W2</td>
-						</tr>
-						<tr>
 							<th class="category-0">all categories</th>
 							<td class="super-gold">Super Grab Bag</td>
-							<td class="super-gold">7x</td>
+							<td class="super-gold">3x</td>
 							<td class="super-gold">00</td>
 						</tr>
 					</tbody>
@@ -139,8 +110,8 @@ All in-stock Anime/Manga characters (currently 61 total), 25% off! Save $60!</p>
 All in-stock Video Game characters (currently 37 total), 25% off! Save $36!</p>
 				<!-- 36 pts, $144 ordinarily -->
 
-				<p><strong>EVERY MAGNET I HAVE IN STOCK: $339.50</strong><br />
-WOW! All in-stock characters for $1.75 each! This is currently 194 characters! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS!</p>
+				<p><strong>EVERY MAGNET I HAVE IN STOCK!</strong><br />
+WOW! All in-stock characters for $1.75 each! I’ll even throw in some extra, never-released characters! THIS IS MORE THAN 50% OFF! YOU’LL DROWN IN MAGNETS! (<a href="mailto:cosplayscramble@gmail.com?Subject=Magnet Count">Email me</a> for quote and character count. The numbers change frequently.)</p>
 
 				<h2>Discounted Sets</h2>
 				<p>Previously convention-exclusive, discounted sets are now available online! Discounted sets are not flawed enough to be discarded but are flawed enough to warrant being sold at a reduced rate. Sometimes it’s as simple as a fleck of dust under the lamination layer that causes a bubble, or a misalignment of the cut edge by ≈.25 mm.</p>
@@ -148,19 +119,11 @@ WOW! All in-stock characters for $1.75 each! This is currently 194 characters! I
 Miscellaneous small defects</p>
 				<p><strong>Dragonball Z Set 2: $4</strong> (normally $8)<br />
 Misaligned cut</p>
-				<p><strong>Hunter x Hunter Set: $6</strong> (normally $8)<br />
-Slightly used</p>
-				<p><strong>Mass Effect Set 1: $5</strong> (normally $8)<br />
-Misaligned cut</p>
-				<p><strong>1th Doctor: $3</strong> (normally $4)<br />
-Dust under lamination layer (sorta subtle; on his arm)</p>
 				<p><strong>Firefly Set 2: $8</strong> (normally $12)<br />
 Dust under lamination layer; torn paper under lamination layer</p>
 				<p><strong>Trainer Brock Set: $4</strong> (normally $6)<br />
 Heart eyes partially ripped</p>
 				<p><strong>Legendaries Gen I Set: $3</strong> (normally $4)<br />
-Tiny bare patches in magnet layer on edges</p>
-				<p><strong>Deadpool: $3</strong> (normally $4)<br />
 Tiny bare patches in magnet layer on edges</p>
 
 				<h2>Orphaned Singles</h2>
@@ -169,12 +132,10 @@ Tiny bare patches in magnet layer on edges</p>
 normally bundled with Hiei for $8</p>
 				<p><strong>Final Fantasy XIII Set, Lightning only: $3</strong> (two available)<br />
 normally bundled with Hope for $8</p>
-				<p><strong>Mass Effect Set 1, Garrus only: $3</strong> (five available)<br />
+				<p><strong>Mass Effect Set 1, Garrus only: $3</strong> (four available)<br />
 normally bundled with Wrex for $8</p>
 				<p><strong>Korra Set, Bolin only: $2</strong> (two available)<br />
 normally bundled with Mako and Korra for $12; in addition, Bolin's foot has been cut into slightly</p>
-				<p><strong>Chrono Trigger Set 2, Magus only: $3</strong><br />
-normally bundled with Frog and Ayla for $12</p>
 				<p><strong>Firefly Set 3, Kaylee and Simon only: $5</strong> (two available)<br />
 normally bundled with River and bloody knives for $12</p>
 				<p><strong>Lizbeth from Pokémon (unreleased, premade): $1</strong> (many available)<br />
