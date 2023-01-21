@@ -1,9 +1,9 @@
 "use strict";
 
-let PageOrder = Vue.component(
+const PageOrder = Vue.component(
 	'page-order',
 	{
-		template: `
+		template:　/* html */ `
 			<section class="page-order">
 				<h1>Ordering</h1>
 				<p><a href="mailto:cosplayscramble@gmail.com?Subject=My%20Order">Email me</a> with the product names you would like to buy and I will arrange a Paypal invoice. Everything in the <router-link :to="\{ path: '/catalog'}">Catalog</router-link> or further down on this page is available to buy both online and in person at anime conventions. Let me know if you want priority shipping.</p>

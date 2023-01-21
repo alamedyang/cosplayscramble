@@ -22,8 +22,9 @@ let app = {
 		routes: [
 			{ path: '/', component: PageInfo },
 			{ path: '/catalog/', component: PageCatalog },
-			{ path: '/order/', component: PageOrder },
-			{ path: '/custom/', component: PageCustom }
+			{ path: '/play/', component: PagePlay },
+			// { path: '/order/', component: PageOrder },
+			// { path: '/custom/', component: PageCustom }
 		]
 	})
 };
@@ -47,8 +48,7 @@ app.vue = new Vue({
 						<ul>
 							<li><router-link :to="\{ path: '/'}">Info</router-link></li>
 							<li><router-link :to="\{ path: '/catalog'}">Catalog</router-link></li>
-							<li><router-link :to="\{ path: '/order/'}">Order</router-link></li>
-							<li><router-link :to="\{ path: '/custom/'}">Custom</router-link></li>
+							<li><router-link :to="\{ path: '/play/'}">Play</router-link></li>
 						</ul>
 					</nav>
 				</header>

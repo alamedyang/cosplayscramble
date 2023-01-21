@@ -1,9 +1,9 @@
 "use strict";
 
-let PageInfo = Vue.component(
+const PageInfo = Vue.component(
 	'page-info',
 	{
-		template: `
+		template:　/* html */ `
 			<section class="page-info">
 				<h1>Information</h1>
 				<h2>News: Oopsie (Oct 22, 2018)</h2>

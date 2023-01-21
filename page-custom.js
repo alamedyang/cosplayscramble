@@ -1,9 +1,9 @@
 "use strict";
 
-let PageCustom = Vue.component(
+const PageCustom = Vue.component(
 	'page-custom',
 	{
-		template: `
+		template:　/* html */ `
 			<section class="page-custom">
 				<h1>Custom Orders</h1>
 				<p>I am currently accepting commissions and other custom orders! NOTE: I have retired my cutting machine, so all future orders will be hand cut.</p>

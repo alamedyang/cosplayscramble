@@ -1,6 +1,6 @@
 "use strict";
 
-let PageCatalog = Vue.component(
+const PageCatalog = Vue.component(
 	'page-catalog',
 	{
 		data: function () {
@@ -49,7 +49,7 @@ let PageCatalog = Vue.component(
 				item.on = !item.on;
 			},
 		},
-		template: `
+		template:　/* html */ `
 			<section class="page-catalog">
 				<h1>General Catalog</h1>
 				<div class="sort-filter noSelect">
@@ -92,7 +92,7 @@ Vue.component(
 		props: {
 			filteredList: Array
 		},
-		template: `
+		template:　/* html */ `
 			<div class="product-list">
 				<ul class="flex-list">
 					<li v-for="item in filteredList">
@@ -110,7 +110,7 @@ Vue.component(
 		props: {
 			item: Object
 		},
-		template: `
+		template:　/* html */ `
 			<a class="product" tabindex="0">
 				<span class="image"><span class="image-crop"><img :src="'./content/characters/' + item.img_name" /></span></span>
 				<span class="description">
